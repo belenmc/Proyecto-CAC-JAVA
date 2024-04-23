@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- nombre de la página -->
+    <title>The Movie Empire</title>
+    <!-- icono de la página -->
+    <link rel="shortcut icon" href="img/grabadora.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+
+  <body>
+    <header class="encabezado">
+      <div class="brand">
+        <a href="index.html">
+          <img
+            src="img/grabadora.jpg"
+            alt="grabadora"
+            width="100px"
+            height="90px"
+          />
+        </a>
+        <h1>The Movie Empire</h1>
+      </div>
+
+      <nav class="botonera">
+        <a href="index.html#series">Series</a>
+        <a href="index.html#peliculas">Peliculas</a>
+        <!-- <a href="#recomendado">Recomendado</a> -->
+        <a href="registrarse.html" target="_blank">Registrarse</a>
+        <a href="login.html" target="_blank">Iniciar Sesión</a>
+        <a href="contacto.html" target="_blank">Contacto</a>
+      </nav>
+    </header>
+    <main>
+      <section class="chapa centrado">
+        <h2>Contacto</h2>
+        <form action="" method="">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" required />
+          <br /><br />
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <br /><br />
+          <label for="sugerencias">Inconveniente</label>
+          <!-- <br><br> -->
+          <select name="inconveniente" id="inconveniente">
+            <option value="0"></option>
+            <option value="1">Video</option>
+            <option value="2">Audio</option>
+            <option value="3">Subtítulo</option>
+            <option value="4">Otro</option>
+          </select>
+          <br /><br />
+          <label for="comentarios">Comentarios</label>
+          <br />
+          <textarea
+            name="comentarios"
+            id="comentarios"
+            cols="30"
+            rows="7"
+          ></textarea>
+          <div>
+            Acepto suscribirme al newsletter
+            <input type="checkbox" name="newsletter" required />
+          </div>
+          <br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <div style="text-align: center">
+        <table style="margin: auto">
+          <tr>
+            <td>Seguinos en</td>
+          </tr>
+          <tr>
+            <td>redes</td>
+          </tr>
+          <tr>
+            <td>The Movie Empire @2024</td>
+          </tr>
+          <tr></tr>
+
+          <tr></tr>
+        </table>
+      </div>
+    </footer>
+  </body>
+</html>

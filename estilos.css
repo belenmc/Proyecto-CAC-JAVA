@@ -1,0 +1,141 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/* ----- ENCABEZADO ----- */
+.portada {
+	display: flex;
+}
+
+video {
+  position:relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40vh;
+	object-fit:fill;
+}
+
+/* --- Menú de navegación --- */
+
+.botonera {
+  padding: 2vw; 
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2vh;
+  width: 100%;
+  /*border-top: .2vh solid beige;*/
+/*text-transform: uppercase;*/
+}
+
+.botonera li{
+  margin-right: 5%;
+}
+
+.botonera a {
+  color: rgb(186, 15, 15);
+  text-decoration: none;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 2vw;
+}
+
+/* ----- CONTENIDO ----- */
+body {
+  width: 100%;
+  margin: 0;
+  
+ /* background-image: url(img/trama.jpg);
+  background-repeat: repeat;
+  background-size: 25%;*/
+  /* backdrop-filter: contrast(40%); */
+  background-color: lightgrey; 
+  /* overflow: hidden; */
+}
+
+h1 {
+  margin: 0;
+  font-size: 3vw;
+}
+
+h2 {
+  color: brown;
+  font-size: 2vw;
+}
+
+
+.chapa {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+
+.chapa-blanca {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin-bottom: 15px;
+}
+p {
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+main {
+  padding: 15px;
+}
+
+.centrado {
+  text-align: center;
+  width: 300px;
+  margin: auto;
+}
+
+/* 
+.fondo {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  margin: auto;
+} */
+
+#buscador {
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+#buscador button {
+  border: 1px solid black;
+
+  border-left: 0px;
+  padding: 5px;
+}
+#buscador input {
+  border: 1px solid black;
+  padding: 5px;
+  border-right: 0px;
+}
+
+/* ----- PIE DE PÁGINA ----- */
+
+footer {
+  background-color: black;
+  /*position: fixed;*/
+  bottom: 0;
+  width: 100%;
+  /* height: 40px; */
+  color: white;
+}
