@@ -1,38 +1,36 @@
-
-
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
 /* ----- ENCABEZADO ----- */
 .portada {
-	display: flex;
+  display: flex;
 }
 
 video {
-  position:relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 40vh;
-	object-fit:fill;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10rem;
+  object-fit: fill;
 }
 
 /* --- Menú de navegación --- */
 
 .botonera {
-  padding: 2vw; 
+  padding: 2rem;
   background-color: black;
   display: flex;
   justify-content: center;
-  margin-bottom: 2vh;
+  margin-bottom: 2rem;
   width: 100%;
   /*border-top: .2vh solid beige;*/
-/*text-transform: uppercase;*/
+  /*text-transform: uppercase;*/
 }
 
-.botonera li{
+.botonera li {
   margin-right: 5%;
 }
 
@@ -40,37 +38,34 @@ video {
   color: rgb(186, 15, 15);
   text-decoration: none;
   font-family: "Advent Pro", sans-serif;
-  font-size: 2vw;
+  font-size: 2rem;
 }
 
 /* ----- CONTENIDO ----- */
 body {
   width: 100%;
   margin: 0;
-  
- /* background-image: url(img/trama.jpg);
+  background-image: url(img/trama.jpg);
   background-repeat: repeat;
-  background-size: 25%;*/
+  background-size: 25%;
   /* backdrop-filter: contrast(40%); */
-  background-color: lightgrey; 
-  /* overflow: hidden; */
+  /* background-color: lightgrey; */
+  overflow: hidden;
 }
 
 h1 {
   margin: 0;
-  font-size: 3vw;
+  font-size: 3rem;
 }
 
 h2 {
   color: brown;
-  font-size: 2vw;
+  font-size: 2rem;
 }
-
 
 .chapa {
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.9);
-
   font-weight: bold;
   color: rgb(255, 255, 255);
   margin-bottom: 15px;
@@ -128,7 +123,35 @@ main {
   padding: 5px;
   border-right: 0px;
 }
+/* peliculas */
+/* .exibidor {
+  display: grid;
+  color: black;
+  gap: 2rem;
+  padding: 2rem;
+  text-align: center;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
+}
 
+.titulo-pelicula,
+.play {
+  display: none;
+}
+
+.titulo-pelicula {
+  color: white;
+  background-color: black;
+}
+
+.pelicula:hover .titulo-pelicula,
+.vista-previa:hover .play {
+  display: inline;
+}
+
+.pelicula:hover {
+  cursor: pointer;
+} */
 /* ----- PIE DE PÁGINA ----- */
 
 footer {
