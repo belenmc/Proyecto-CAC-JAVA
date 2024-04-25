@@ -3,24 +3,31 @@
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ----- ENCABEZADO ----- */
 .portada {
   display: flex;
+  background-color: black;
 }
 
 video {
   position: relative;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 10rem;
+  /* width: 100%;
+  height: 10rem; */
   object-fit: fill;
+  width: 20rem;
+  margin: auto;
 }
 
 /* --- Menú de navegación --- */
 
 .botonera {
-  padding: 2rem;
+  padding: 0.5rem 0.5rem 1rem 0.5rem;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -50,17 +57,12 @@ body {
   background-size: 25%;
   /* backdrop-filter: contrast(40%); */
   /* background-color: lightgrey; */
-  overflow: hidden;
-}
-
-h1 {
-  margin: 0;
-  font-size: 3rem;
+  /* overflow: hidden; */
 }
 
 h2 {
-  color: brown;
-  font-size: 2rem;
+  color: rgb(186, 15, 15);
+  font-family: "Advent Pro", sans-serif;
 }
 
 .chapa {
@@ -123,8 +125,10 @@ main {
   padding: 5px;
   border-right: 0px;
 }
-/* peliculas */
-/* .exibidor {
+
+/* ----- PELÍCULAS Y SERIES ----- */
+
+.exibidor {
   display: grid;
   color: black;
   gap: 2rem;
@@ -134,14 +138,13 @@ main {
   grid-template-columns: repeat(auto-fill, minmax(5rem, 1fr));
 }
 
-.titulo-pelicula,
-.play {
+.titulo-pelicula .play {
   display: none;
 }
 
 .titulo-pelicula {
   color: white;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .pelicula:hover .titulo-pelicula,
@@ -151,7 +154,13 @@ main {
 
 .pelicula:hover {
   cursor: pointer;
-} */
+  opacity: 0.5;
+}
+
+.pelicula img {
+  width: 100%;
+}
+
 /* ----- PIE DE PÁGINA ----- */
 
 footer {
